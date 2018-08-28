@@ -1,5 +1,5 @@
 {
-    "name": "rafaelandrade/mail",
+    "name": "webrafael/apimail",
     "type": "library",
     "description": "Api desenvolvida para envio de emails",
     "version":"1.0",
@@ -31,6 +31,6 @@
             "Mail\\Test\\": "src/test"
         }
     },
-    "minimum-stability":"beta",
+    "minimum-stability":"dev",
     "license": "LGPL-2.1"
 }
