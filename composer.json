@@ -11,10 +11,7 @@
     "require": {
         "php": ">=7.0",
         "ext-ctype": "*",
-        "ext-filter": "*"
-    },
-
-    "require-dev": {
+        "ext-filter": "*",
         "phpmailer/phpmailer": "dev-master",
         "symfony/dotenv": "^3.3"
     },
