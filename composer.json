@@ -1,0 +1,29 @@
+{
+    "name": "rafaelandrade/mail",
+    "type": "library",
+    "description": "Api desenvolvida para envio de emails",
+    "version":"1.0",
+    "license": "MIT",
+    "config": {
+        "platform": {
+            "php": "7.0"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "phpmailer/phpmailer": "dev-master",
+        "symfony/dotenv": "^3.3"
+    },
+    "authors": [
+        {
+            "name": "Rafael Andrade",
+            "email": "web.andrade@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mail\\": "src/WebRafael/Mail"
+        }
+    },
+    "minimum-stability": "dev"
+}
