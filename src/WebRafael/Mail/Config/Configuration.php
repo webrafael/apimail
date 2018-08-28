@@ -16,7 +16,7 @@ class Configuration
     static public function get(string $name = null)
     {
         $config = new Dotenv();
-        $config->load(dirname(__DIR__, 4).'/.env');
+        $config->load(dirname(__DIR__, 6).'/.env');
 
         return getenv($name);
     }
