@@ -24,6 +24,5 @@
         "psr-4": {
             "Mail\\": "src/WebRafael/Mail"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
