@@ -3,7 +3,6 @@
     "type": "library",
     "description": "Api desenvolvida para envio de emails",
     "version":"1.0",
-    "license": "MIT",
     "config": {
         "platform": {
             "php": "7.0"
@@ -11,6 +10,11 @@
     },
     "require": {
         "php": ">=7.0",
+        "ext-ctype": "*",
+        "ext-filter": "*"
+    },
+
+    "require-dev": {
         "phpmailer/phpmailer": "dev-master",
         "symfony/dotenv": "^3.3"
     },
@@ -25,5 +29,10 @@
             "Mail\\": "src/WebRafael/Mail"
         }
     },
-    "minimum-stability": "stable"
+    "autoload-dev": {
+        "psr-4": {
+            "Mail\\Test\\": "src/test"
+        }
+    },
+    "license": "LGPL-2.1"
 }
