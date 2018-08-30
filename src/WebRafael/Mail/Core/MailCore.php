@@ -49,7 +49,6 @@ class MailCore
     public function from(string $mail = null, string $name = null)
     {
         $this->mail->SetFrom($mail, $name, false);
-        $this->mail->AddReplyTo($mail, $name);
         return $this;
     }
 
