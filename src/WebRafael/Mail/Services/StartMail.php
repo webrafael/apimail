@@ -25,6 +25,7 @@ class StartMail
         $mail->CharSet       = Config::get('SMTP_CHARSET');      // Tipo de coleção de caracteres
         $mail->Username      = Config::get('SMTP_USER');         // Nome de usuário da conta de email
         $mail->Password      = Config::get('SMTP_SENHA');        // Senha da conta de email
+        $mail->Sender        = Config::get('SMTP_USER');
         return $mail;
     }
 }
