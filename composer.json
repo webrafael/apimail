@@ -31,7 +31,6 @@
             "Mail\\Test\\": "src/test"
         }
     },
-    "minimum-stability":"dev",
     "prefer-stable": true,
     "license": "LGPL-2.1"
 }
