@@ -29,7 +29,7 @@ class StartMail
 
         //Checa se existe user para cópia oculta
         if(Config::get('SMTP_BCC')) {
-            $mail->addBcc(onfig::get('SMTP_BCC'));
+            $mail->addBcc(Config::get('SMTP_BCC'));
         }
 
         return $mail;
