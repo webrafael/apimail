@@ -26,6 +26,12 @@ class StartMail
         $mail->Username      = Config::get('SMTP_USER');         // Nome de usuário da conta de email
         $mail->Password      = Config::get('SMTP_SENHA');        // Senha da conta de email
         $mail->Sender        = Config::get('SMTP_USER');
+
+        //Checa se existe user para cópia oculta
+        if(Config::get('SMTP_BCC')) {
+            $mail->addBcc(onfig::get('SMTP_BCC'));
+        }
+
         return $mail;
     }
 }
