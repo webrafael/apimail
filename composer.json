@@ -2,7 +2,7 @@
     "name": "webrafael/apimail",
     "type": "library",
     "description": "Api desenvolvida para envio de emails",
-    "version":"1.2.0",
+    "version":"1.3.0",
     "config": {
         "platform": {
             "php": "7.0"
@@ -35,5 +35,6 @@
             "Mail\\Test\\": "src/test"
         }
     },
-    "license": "LGPL-2.1"
+    "minimum-stability": "stable",
+    "license": "MIT"
 }
