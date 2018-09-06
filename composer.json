@@ -35,6 +35,6 @@
             "Mail\\Test\\": "src/test"
         }
     },
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "license": "MIT"
 }
